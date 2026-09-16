@@ -27,3 +27,4 @@ npm run dev
 
 Execute `npm run lint` e `npm run build` antes de publicar. Todos os contatos, a OAB e as imagens atuais são demonstrativos.
 # aguinaldo-alves-direitos-trabalhistas
+# aguinaldo-alves-direitos-trabalhistas
