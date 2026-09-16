@@ -1,0 +1,3 @@
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../../core/auth/AuthContext";
+export function LoginPage() { const { login } = useAuth(); const navigate = useNavigate(); function submit(event) { event.preventDefault(); login({ id: "demo", name: "Usuário Demo", role: "admin" }); navigate("/admin"); } return <section className="section narrow"><span className="eyebrow">DEMONSTRAÇÃO</span><h2>Acesse a área protegida</h2><form className="form" onSubmit={submit}><label>E-mail<input type="email" defaultValue="demo@exemplo.com" /></label><label>Senha<input type="password" defaultValue="demonstracao" /></label><button className="button" type="submit">Entrar como administrador</button></form></section>; }

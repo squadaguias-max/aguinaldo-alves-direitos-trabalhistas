@@ -1,0 +1,1 @@
+export const defaultBrand={logoText:"AA",colors:{primary:"#89663e",primaryStrong:"#151844",accent:"#bebebc",surface:"#ffffff",background:"#f4f4f2",text:"#151844",muted:"#797978"},fonts:{display:"Georgia, 'Times New Roman', serif",body:"Arial, sans-serif"},radius:"4px"};

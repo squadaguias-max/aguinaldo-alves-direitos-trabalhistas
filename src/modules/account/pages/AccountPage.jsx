@@ -1,0 +1,1 @@
+export function AccountPage() { return <section className="section narrow"><span className="eyebrow">CONTA</span><h2>Área do usuário</h2><p className="lead">Use este módulo para perfil, preferências e histórico do usuário.</p></section>; }
