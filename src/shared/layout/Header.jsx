@@ -1,7 +1,7 @@
 import { Menu, MessageCircle, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo-aguinaldo.svg";
+import logo from "../../assets/logo-aguinaldo-oficial.png";
 import { whatsappUrl } from "../../config/template.config";
 
 export function Header() {
